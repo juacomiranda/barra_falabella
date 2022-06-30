@@ -1,0 +1,42 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.caja_ {
+    background: rgb(255, 125, 2)
+}
+h1 {
+    color: white;
+   
+}
+.caja_ {
+    display: flex;
+}
+.menu_ {
+    position: absolute;
+    left: 350px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.hola_ {
+    position: absolute;
+    right: 350px;
+    padding: 30px 10px 20px 0px;
+    font-size: 20px;
+    border-right: 2px solid white;
+    margin: 10px 0px 10px 0px;
+}
+.compras_ {
+    position: absolute;
+    right: 100px;
+    padding: 30px 10px 20px 0px;
+    font-size: 20px;
+    border-right: 2px solid white;
+}
+.falabella_ {
+    background: linear-gradient(70deg, orange, white);
+    background-color: black;
+    border-radius: 0px 40px 40px 0px;
+    padding: 20px 20px;
+    margin: 0;
+}
