@@ -21,7 +21,7 @@ h1 {
 .hola_ {
     position: absolute;
     right: 350px;
-    padding: 30px 10px 20px 0px;
+    padding: 20px 10px 10px 0px;
     font-size: 20px;
     border-right: 2px solid white;
     margin: 10px 0px 10px 0px;
@@ -29,9 +29,10 @@ h1 {
 .compras_ {
     position: absolute;
     right: 100px;
-    padding: 30px 10px 20px 0px;
+    padding: 20px 10px 10px 0px;
     font-size: 20px;
     border-right: 2px solid white;
+    margin: 10px 0px 10px 0px;
 }
 .falabella_ {
     background: linear-gradient(70deg, orange, white);
