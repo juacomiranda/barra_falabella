@@ -1,43 +1,88 @@
 body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 div.caja_ {
-    background: rgb(255, 125, 2)
+    background: rgb(238, 86, 1)
 }
 h1 {
-    color: white;
-   
+    color: white;   
 }
 .caja_ {
     display: flex;
 }
 .menu_ {
     position: absolute;
-    left: 350px;
-    padding-top: 30px;
+    left: 280px;
+    padding: 20px 10px 10px 0px;
+    margin: 10px 0px 10px 0px;
     font-size: 20px;
+    width: 90px;
+    text-align: right;
+    /*border: 5px solid red;*/
+}
+.buscar_ {
+    position: absolute;
+    left: 420px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px 10px 10px 20px;
+    margin: 12px 0px 10px 0px;
+    width: 530px;
+    color: gray;
+    background: white;
+    font-size: 17px;
+}
+#circulo_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: gray;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
 }
 .hola_ {
     position: absolute;
-    right: 350px;
-    padding: 20px 10px 10px 0px;
+    right: 200px;
+    padding: 5px 10px 10px 0px;
     font-size: 20px;
     border-right: 2px solid white;
     margin: 10px 0px 10px 0px;
+    width: 140px;
+    height: 30px;
+    /*border: 5px solid red;*/
 }
 .compras_ {
     position: absolute;
     right: 100px;
-    padding: 20px 10px 10px 0px;
+    padding: 5px 10px 10px 0px;
     font-size: 20px;
     border-right: 2px solid white;
     margin: 10px 0px 10px 0px;
+    width: 80px;
+    height: 30px;
+  /*  border: 5px solid red;*/
 }
 .falabella_ {
-    background: linear-gradient(70deg, orange, white);
-    background-color: black;
+    background: linear-gradient(to right, rgb(238, 86, 1), orange);
     border-radius: 0px 40px 40px 0px;
     padding: 20px 20px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.carrito_ {
+    position: absolute;
+    right: 1px;
+    padding: 10px 10px 10px 0px;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+    width: 50px;
+   /* border: 5px solid red;*/
 }
